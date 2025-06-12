@@ -109,5 +109,5 @@ This analysis answers the following:
 Josh Makolo
 
 - 🎓 SQL Developer | Data Analyst
-- 📫 LinkedIn - 
+- 📫 LinkedIn - www.linkedin.com/in/josh-makolo-429775336
 - 💼 GitHub - https://github.com/JoshTheAnalyst-23
