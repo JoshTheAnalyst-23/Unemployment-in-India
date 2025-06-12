@@ -96,8 +96,6 @@ This analysis answers the following:
 - install.packages("ggplot2")
 - install.packages("readxl")
 
-4. **Load and run:**
-- Navigate to
 
 ## 🎓 Learning Outcomes
 - Worked with real-world datasets in R.
