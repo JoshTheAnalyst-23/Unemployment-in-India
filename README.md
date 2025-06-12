@@ -87,7 +87,7 @@ This analysis answers the following:
 
 1. **Clone the repository:**
    ```bash
-git clone https://github.com/JoshTheAnalyst-23/unemployment-india-r.git
+   git clone https://github.com/JoshTheAnalyst-23/unemployment-india-r.git
 
 2. **Open the R studio**
   
@@ -108,6 +108,6 @@ git clone https://github.com/JoshTheAnalyst-23/unemployment-india-r.git
 ## 🙋‍♂️ Author
 Josh Makolo
 
-🎓 SQL Developer | Data Analyst
-📫 LinkedIn - 
-💼 GitHub - 
+- 🎓 SQL Developer | Data Analyst
+- 📫 LinkedIn - 
+- 💼 GitHub - https://github.com/JoshTheAnalyst-23
