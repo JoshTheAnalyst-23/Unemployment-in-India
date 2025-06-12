@@ -1,61 +1,113 @@
-# Unemployment-in-India
+# Unemployment in India – Data Analysis Using R
 
 
 
 ![Unemployment](https://github.com/user-attachments/assets/5bd2a2dd-95fa-414a-8a87-16e8dae9b8a8)
 
-# Unemployment in India - Data Analysis Using R
 
-This project explores unemployment trends across Indian states using a real-world dataset from Kaggle. It answers key analytical questions related to unemployment patterns, regional disparities, and correlations with labor metrics.
+This project explores unemployment trends across India using a Kaggle dataset. Using R with libraries like `dplyr`, `ggplot2`, and `readxl`, we investigate time-based patterns, regional disparities, and correlations among employment metrics.
 
-## 📊 Objectives
+---
 
-This analysis addresses the following questions:
+## 📑 Table of Contents
 
-1. How has the unemployment rate changed over time (by date)?
-2. Are there any seasonal patterns in unemployment?
-3. Which years or months had the highest and lowest unemployment rates?
-4. Which Indian states have the highest and lowest unemployment rates?
-5. Are there regional disparities in employment and unemployment?
-6. Is there a correlation between the labor participation rate and unemployment?
-7. What is the estimated employed percentage in each state?
-8. Are there any states where the employed percentage differs significantly from the national average?
-9. How does the employed percentage correlate with the unemployment rate?
-10. What is the estimated labor participation rate in each state?
-11. Is there a relationship between labor participation and unemployment?
+1. [Project Objectives](#project-objectives)
+2. [Tools & Technologies](#tools--technologies)
+3. [Dataset Overview](#dataset-overview)
+4. [Key Insights](#key-insights)
+5. [Sample Visualizations](#sample-visualizations)
+6. [How to Run This Project](#how-to-run-this-project)
+7. [Learning Outcomes](#learning-outcomes)
+8. [Author](#author)
+9. [License](#license)
 
-## 🧰 Tools & Libraries
+---
 
-- **R**
-- [`dplyr`](https://dplyr.tidyverse.org/) – for data manipulation
-- [`ggplot2`](https://ggplot2.tidyverse.org/) – for data visualization
-- [`readxl`](https://readxl.tidyverse.org/) – for reading Excel files
+## 📌 Project Objectives
 
-## 📁 Dataset
+This analysis answers the following:
 
-- Source: [Kaggle - Unemployment in India](https://www.kaggle.com/)
-- File: `Unemployment dataset.xlsx`
-- Key Features:
-  - Date
-  - Region (Indian states)
-  - Estimated Unemployment Rate (%)
-  - Estimated Employed
-  - Estimated Labour Participation Rate (%)
-  - Frequency (Monthly/Yearly)
+- How has the unemployment rate changed over time?
+- Are there seasonal patterns in unemployment?
+- Which years/months had the highest and lowest unemployment rates?
+- Which Indian states have the highest and lowest unemployment rates?
+- Are there regional disparities in employment/unemployment?
+- Is there a correlation between labor participation rate and unemployment?
+- What is the estimated employed percentage in each state?
+- Do any states significantly differ from the national employment average?
+- What is the relationship between employment and unemployment rates?
+- What is the labor participation rate per state?
+- Any relationship between labor participation and unemployment?
 
-## 📈 Highlights
+---
 
-- **Time Series Analysis**: Tracked changes in unemployment rate across months and years.
-- **Seasonal Patterns**: Analyzed monthly averages to detect seasonal trends.
-- **Regional Comparison**: Identified top/bottom states by unemployment and employment percentages.
-- **Correlation Studies**: Explored relationships between labor participation and unemployment.
+## 🧰 Tools & Technologies
 
-## 📌 Sample Visuals
+- **R Programming Language**
+- **Libraries Used:**
+  - [`dplyr`](https://dplyr.tidyverse.org/) – Data wrangling
+  - [`ggplot2`](https://ggplot2.tidyverse.org/) – Data visualization
+  - [`readxl`](https://readxl.tidyverse.org/) – Excel data import
 
-- Line charts showing unemployment trends (e.g. 2019, 2020)
-- Bar plots of monthly/seasonal unemployment
-- Correlation plots between labor metrics
-- Region-wise comparison of employment percentages
+---
 
-## 🗂️ Project Structure
+## 📁 Dataset Overview
 
+- **Source**: Kaggle – https://www.kaggle.com/datasets/gokulrajkmv/unemployment-in-india
+- **Format**: `.csv`
+- **Key Columns**:
+  - `Date`
+  - `Region` (Indian States)
+  - `Frequency`
+  - `Estimated Unemployment Rate (%)`
+  - `Estimated Employed`
+  - `Estimated Employed Rate (%)`
+  - `Estimated Labour Participation Rate (%)` 
+---
+
+## 📊 Key Insights
+
+- 📈 **April 2020** had the highest unemployment rate (impact of COVID-19).
+- 🗓️ **Monthly trends** reveal seasonality in unemployment.
+- 🗺️ **States vary greatly** in employment stats; regional disparities exist.
+- ❌ **Negative correlation** between unemployment rate and employment rate.
+- 🧪 **No strong correlation** between labor participation and unemployment rate.
+
+---
+
+## 🖼️ Sample Visualizations
+
+- **Line Charts** – Unemployment trends by month/year
+- **Bar Charts** – State-level employment percentages
+- **Scatter Plots** – Correlations between metrics
+
+---
+
+## ▶️ How to Run This Project
+
+1. **Clone the repository:**
+   ```bash
+git clone https://github.com/JoshTheAnalyst-23/unemployment-india-r.git
+
+2. **Open the R studio**
+  
+3. **Install the required packages to perform this analysis**
+- install.packages("dplyr")
+- install.packages("ggplot2")
+- install.packages("readxl")
+
+4. **Load and run:**
+- Navigate to
+
+## 🎓 Learning Outcomes
+- Worked with real-world datasets in R.
+- Applied data wrangling and visualization techniques.
+- Discovered socioeconomic trends using statistical analysis.
+- Interpreted and visualized complex relationships in employment data.
+
+## 🙋‍♂️ Author
+Josh Makolo
+
+🎓 SQL Developer | Data Analyst
+📫 LinkedIn - 
+💼 GitHub - 
